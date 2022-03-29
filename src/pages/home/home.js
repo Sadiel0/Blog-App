@@ -1,10 +1,17 @@
 import React from "react";
-import { Header } from "../../header/header";
+import "./home.css"
+import {Header} from "../../components/header/header"
+import Posts from "../../components/posts/posts";
+import Sidebar from "../../components/sidebar/sidebar"
 export function Home() {
   return (
-    <div className="home">
-      <Header />
-      Home
-    </div>
+    <>
+    <Header />
+      <div className="home">
+        <Posts />
+        <Sidebar />
+      </div>
+    </>
+
   );
 }
