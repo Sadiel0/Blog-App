@@ -1,0 +1,43 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg);
+    background-size: cover;
+}
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: burlywood;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerLoginButton {
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    color:white;
+    border-radius: 10px;
+}
