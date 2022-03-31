@@ -1,15 +1,10 @@
-import React from 'react'
-import "./post.css"
-import Post from '../../components/post/post'
+import React from "react";
+import "./post.css";
+import Post from "../../components/post/post";
 export default function Posts() {
   return (
-    <div className='posts'>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-    
+    <div className="posts">
+      <Post />
     </div>
-  )
+  );
 }
