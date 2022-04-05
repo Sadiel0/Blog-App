@@ -7,7 +7,7 @@ import Login from "./pages/login/login";
 import Register from "./pages/register/register";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
-  const user = true;
+  const user = false;
 
   return (
     <div className="App">
